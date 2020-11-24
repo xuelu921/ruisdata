@@ -29,4 +29,10 @@ class AlgorithmApplicationTests {
         System.out.println("搜索单词前缀app是否存在的结果为： " + trie.startsWith("app"));
     }
 
+    @Test
+    void testAlgorithm5() {
+        int[] inputIntArr = new int[]{8,6,1,0,50,22,23,25,24};
+
+        System.out.println("连续的最长序列个数为： " + Algorithm5.getLongestConsecutive(inputIntArr));
+    }
 }
