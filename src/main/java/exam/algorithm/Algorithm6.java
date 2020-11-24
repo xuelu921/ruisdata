@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author Administrator
  */
-public class Algorithm_6 {
+public class Algorithm6 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("请输入正确的待匹配字符串：");

@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * @author lx
  */
-public class Algorithm_1 {
+public class Algorithm1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         boolean isTrue = true;
@@ -26,7 +26,7 @@ public class Algorithm_1 {
     }
 
     /**
-     * 是否是2的整数幂
+     * 是否是2的整数幂[由于测试类改为public]
      * 2的整数次幂转换成二进制：第一位都是1，其余n位都是0；
      * 2的整数次幂-1转换成二进制：第一位都是0，其余n位都是1；
      * 2^n & (2^n - 1) = 0
@@ -34,7 +34,7 @@ public class Algorithm_1 {
      * @param num num
      * @return if it is a power of 2,true;otherwise false
      */
-    private static boolean isPowerOfTwo(Integer num) {
+    public static boolean isPowerOfTwo(Integer num) {
         return (num & (num - 1)) == 0;
     }
 }

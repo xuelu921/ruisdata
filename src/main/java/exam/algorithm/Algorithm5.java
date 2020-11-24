@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * @author lx
  */
-public class Algorithm_5 {
+public class Algorithm5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("请输入几个整数并用逗号隔开：");
